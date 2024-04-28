@@ -14,5 +14,3 @@ Este projeto é implementado usando Python com as seguintes bibliotecas:
 - *OpenCV*: Para processamento de imagens e tarefas gerais de visão computacional.
 - *Pillow (PIL)*: Para abrir, manipular e salvar diversos formatos de arquivos de imagem.
 - *NumPy*: Para operações de alto desempenho com arrays multidimensionais e funções matemáticas.
-
-- 
