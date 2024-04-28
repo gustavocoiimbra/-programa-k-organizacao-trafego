@@ -44,7 +44,7 @@ processamento de imagem e vídeo, como segmentação de objetos, análise
 de movimento e rastreamento de objetos, para identificar e acompanhar os
 veículos no trânsito.
 
-##Documentação
+## Documentação
 A equipe de documentação é responsável por registrar todo o processo de desenvolvimento, desde a pesquisa inicial até a implementação final. Isso inclui a criação de documentos técnicos, tutoriais e manuais de usuário, bem como a organização e manutenção do repositório no GitHub.
 
 ## Como Usar
