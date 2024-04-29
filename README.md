@@ -9,13 +9,13 @@ Atualmente, o foco está na escolha e implementação de modelos de detecção d
 O projeto foi estruturado em três frentes principais: Pesquisa, Implementação e Documentação.
 
 ## Funcionalidades
-- *Detecção de Objetos Avançada*: Utiliza YOLOv8 e Faster R-CNN, entre os modelos de detecção de objetos mais eficientes, adequados para processamento em tempo real.
+- *Detecção de Objetos Avançada*: Utiliza o YOLO, modelo para detecção de objetos em imagens sem necessidade de criar uma rede neural convolucional (CNN), o que o torna mais rápido do que as soluções que dependem de uma CNN.
 - *Compatibilidade com Múltiplas Fontes*: Capaz de processar entradas de imagens estáticas, arquivos de vídeo e transmissões em tempo real de webcams.
 - *Alta Precisão e Velocidade*: Garante detecções de veículos rápidas e precisas, cruciais para aplicações em tempo real.
 - *Integração Fácil*: Projetado para ser facilmente integrado em sistemas maiores ou aplicações que requerem capacidades de detecção de veículos.
 
 ## Pesquisa
-A equipe de pesquisa é responsável por avaliar e selecionar os modelos de detecção de veículos mais adequados ao contexto do problema. Isso envolve a análise de diversos modelos disponíveis, como YOLO, Faster R-CNN, entre outros, considerando critérios como precisão, velocidade de processamento e capacidade de integração com outros sistemas de detecção.
+A equipe de pesquisa é responsável por avaliar e selecionar os modelos de detecção de veículos mais adequados ao contexto do problema. Isso envolve a análise de diversos modelos disponíveis, como YOLO, Faster R-CNN, entre outros, considerando critérios como precisão, velocidade de processamento e capacidade de integração com outros sistemas de detecção. Chegamos à conclusão que o YOLO seria o modelo que nos serviria melhor, devido a sua capacidade de rodar em tempo real mesmo que em hardwares relativamente mais simples.
 
 ## Implementação
 A equipe de implementação trabalha na integração dos modelos selecionados com o código existente, bem como na adaptação e otimização dos algoritmos para atender às necessidades específicas do projeto. Para isso, utilizamos uma variedade de tecnologias e abordagens, incluindo:
