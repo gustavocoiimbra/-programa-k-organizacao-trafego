@@ -52,19 +52,19 @@ A equipe de documentação é responsável por registrar todo o processo de dese
 ### Utilização
 - Python 3.x
 - Bibliotecas Python listadas no arquivo requirements.txt
-- Modelos de detecção de objetos treinados, como yolov9c.pt
+- Modelos de detecção de objetos treinados, como yolov8n.pt
 
 ### Instalação
 1. Clone este repositório para o seu ambiente local.
 2. Instale as dependências do projeto executando o comando pip install -r requirements.txt.
-3. Baixe os modelos de detecção de objetos necessários, como yolov9c.pt, e coloque-os na pasta apropriada do projeto.
+3. Baixe os modelos de detecção de objetos necessários, como yolov8n.pt, e coloque-os na pasta apropriada do projeto.
 
 ### Como Usar
 Para executar a detecção de carros, siga estas etapas:
 
-1. Execute o notebook detecção-carros-v.1.1.ipynb ou detecção-carros-v1.0.ipynb usando Jupyter ou outro ambiente compatível.
+1. Execute o notebook detecção-de-automoveis.ipynb usando Jupyter ou outro ambiente compatível.
 2. Siga as instruções dentro do notebook para carregar o vídeo desejado e iniciar a detecção de carros.
 3. Se necessário, ajuste os parâmetros de detecção ou rastreamento no código do notebook.
 
 ## Exemplos
-Para ver exemplos de como usar este projeto, consulte os notebooks detecção-carros-v.1.1.ipynb e detecção-carros-v1.0.ipynb.
+Para ver exemplos de como usar este projeto, consulte o notebook detecção-de-automoveis.ipynb.
